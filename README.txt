@@ -1,9 +1,14 @@
-NEFERDIDI MILKTEASHOP — OUR LOCATIONS
-This is a responsive, English one-page website containing the four Google Maps links supplied in the chat.
+NEFERDIDI BRANCH LOCATIONS WEBSITE
 
-To publish for free:
-1. Open https://sites.google.com/ for Google Sites, or upload this index.html folder to a static hosting service that supports HTML.
-2. The included index.html is ready to preview in a browser.
-3. Add the remaining branch links before treating this as the complete branch directory.
+Files:
+- index.html: the complete responsive website.
 
-Note: This file is prepared but not published online; a hosting account/action is required to create a public URL.
+Publish on GitHub Pages:
+1. Open your Maps GitHub repository.
+2. Upload this index.html file to the repository root.
+3. If GitHub asks whether to replace an existing index.html, choose to replace it.
+4. Commit changes.
+5. GitHub Pages should publish from main / (root).
+6. Open https://abdelrahmansaber-dot.github.io/Maps/ and refresh with Ctrl+F5.
+
+The website uses orange, white, and black brand styling and includes 11 branch cards, search, area filter, and Google Maps links.
