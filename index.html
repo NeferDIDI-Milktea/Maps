@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#153c32">
+<title>Neferdidi Milkteashop | Our Locations</title>
+<style>
+:root{--green:#153c32;--cream:#f7f2e8;--pink:#e9b9b0;--ink:#1e2924;--muted:#66716b;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+.hero{background:var(--green);color:white;padding:52px 20px 44px;text-align:center;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:260px;height:260px;border:1px solid #ffffff30;border-radius:50%;right:-90px;top:-130px}
+.logo{font-size:13px;letter-spacing:4px;text-transform:uppercase;color:#f0d6c7;font-weight:bold}
+h1{font-size:clamp(32px,6vw,56px);margin:16px 0 10px;letter-spacing:-1.5px}
+.hero p{margin:0 auto;max-width:520px;color:#e5eee8;line-height:1.6}
+.wrap{max-width:1050px;margin:auto;padding:34px 18px 54px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:20px}
+.section-head h2{font-size:25px;margin:0}
+.section-head span{font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}
+.card{background:var(--white);border:1px solid #e6e1d6;border-radius:18px;padding:22px;display:flex;flex-direction:column;min-height:225px;box-shadow:0 8px 24px #183a2b0a}
+.number{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#e9b9b033;color:var(--green);font-weight:bold;font-size:13px}
+.card h3{font-size:19px;margin:16px 0 8px}
+.card p{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 20px}
+.actions{display:flex;gap:9px;margin-top:auto;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;padding:11px 14px;font-size:13px;font-weight:bold}
+.primary{background:var(--green);color:white}
+.secondary{border:1px solid #d6ded8;color:var(--green)}
+.note{margin-top:24px;padding:15px 17px;background:#efe8d9;border-radius:12px;color:#59635c;font-size:13px;line-height:1.5}
+footer{text-align:center;background:#102e27;color:#dce8df;padding:22px 15px;font-size:12px;letter-spacing:.5px}
+@media(max-width:520px){.hero{padding:42px 18px 36px}.wrap{padding-top:27px}.section-head{align-items:start;flex-direction:column}.card{min-height:205px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="logo">Neferdidi Milkteashop</div>
+  <h1>Find Your Neferdidi</h1>
+  <p>Choose your nearest branch and get directions with Google Maps.</p>
+</header>
+<main class="wrap">
+  <div class="section-head">
+    <h2>Our Locations</h2>
+    <span>Choose a branch to start your journey</span>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <div class="number">01</div>
+      <h3>Nasr City — Helmy Abd El-Aaty</h3>
+      <p>Helmy Abd El-Aaty Street, Al Manteqah Ath Thamenah, Nasr City, Cairo.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://maps.app.goo.gl/2yRkEEXpxKFH7shC7" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn secondary" href="https://maps.app.goo.gl/2yRkEEXpxKFH7shC7" target="_blank" rel="noopener">View Map</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="number">02</div>
+      <h3>Saladin Citadel</h3>
+      <p>Saladin Citadel area, Cairo.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://maps.app.goo.gl/CM1u1bDSRvHQ3LaF7" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn secondary" href="https://maps.app.goo.gl/CM1u1bDSRvHQ3LaF7" target="_blank" rel="noopener">View Map</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="number">03</div>
+      <h3>Sheraton — Ankara Street</h3>
+      <p>Ankara Street, Sheraton Al Matar, El Nozha, Cairo.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://maps.app.goo.gl/egJypythCJpe4Asz8" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn secondary" href="https://maps.app.goo.gl/egJypythCJpe4Asz8" target="_blank" rel="noopener">View Map</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="number">04</div>
+      <h3>Child's Park — Nasr City</h3>
+      <p>Child's Park, Aku Plaza, Nasr City, Cairo.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://maps.app.goo.gl/RYmEf6sU4jKnjgbA7" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn secondary" href="https://maps.app.goo.gl/RYmEf6sU4jKnjgbA7" target="_blank" rel="noopener">View Map</a>
+      </div>
+    </article>
+  </div>
+  <div class="note"><strong>More branches coming soon.</strong> This page currently includes the four branch links provided. Add the remaining branch links before publishing the complete locations page.</div>
+</main>
+<footer>NEFERDIDI MILKTEASHOP · OUR LOCATIONS</footer>
+</body>
+</html>
